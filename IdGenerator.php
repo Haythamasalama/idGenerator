@@ -44,4 +44,20 @@ class IdGenerator
 
         return $this;
     }
+
+    /**
+     * number section this function passed the number and the length then function replace the zero
+     * form the left or right or both with specified  length
+     * for example : number : 10 and length:10 , right => 100000000
+     * @param int $number
+     * @param int|null $length
+     * @param int $sideZero
+     * @return $this
+     */
+    public function number(int $number, ?int $length = 0, int $sideZero = 0) : static
+    {
+        $this->id []= str_pad($number,$length,0,$sideZero);
+
+        return $this;
+    }
 }
