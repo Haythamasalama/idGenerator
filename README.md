@@ -39,23 +39,23 @@ for more inforamtion you foramt :
 ```
 https://www.php.net/manual/en/function.date.php
 ```
-Example : 20010716   
+Example : `20010716 `  
 ```php
 
 (new IdGenerator())->date("Ymd")->get()
 ```
-Example : 051618   
+Example : `051618`   
 ```php
 
 (new IdGenerator())->date("his")->get()
 ```
 
-Example : 20010716051618   
+Example : `20010716051618 `  
 ```php
 
 (new IdGenerator())->date("YmdHis")->get()
 ```
-Example : 20010716-051618   
+Example : `20010716-051618`   
 ```php
 
 (new IdGenerator())->date("Ymd-His")->get()
@@ -65,18 +65,18 @@ Example : 20010716-051618
 
 You can crete a section characters for your id :
 
-Example : ENGL1201   
+Example : `ENGL1201`   
 ```php
 
 (new IdGenerator())->chars("ENGL1201")->get()
 ```
-Example : ENGL-1201
+Example : `ENGL-1201`
 ```php
 
 (new IdGenerator())->chars("ENGL1201")->number("1201")->get()
 ```
 
-Example : act-015-F1   
+Example : `act-015-F1`   
 ```php
 
 (new IdGenerator())->chars("act")->number("015")->chars("F1")->get()
