@@ -60,4 +60,17 @@ class IdGenerator
 
         return $this;
     }
+
+    /**
+     * divider between sections
+     *  for example  : - , * , /
+     * @param string $divider
+     * @return $this
+     */
+    public function divider(string $divider = '-'): static
+    {
+        $this->divider = $divider;
+
+        return $this;
+    }
 }
