@@ -32,4 +32,16 @@ class IdGenerator
         return $this;
     }
 
+    /**
+     * character section
+     * for example  : act , user
+     * @param string $char
+     * @return $this
+     */
+    public function chars(string $char) : static
+    {
+        $this->id []=  $char;
+
+        return $this;
+    }
 }
