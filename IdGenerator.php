@@ -73,4 +73,13 @@ class IdGenerator
 
         return $this;
     }
+
+    /**
+     * get generated id
+     * @return string
+     */
+    public function get(): string
+    {
+        return implode($this->divider,$this->id);
+    }
 }
