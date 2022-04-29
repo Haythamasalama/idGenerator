@@ -1,5 +1,5 @@
-# id-generator
-This php class used for create custom ids for database or you business logic for example gerate ids  like this :
+# id generator
+php class used for create custom ids for database or you business logic for example gerate ids  like this :
 
 ```
  act-200116-0001
