@@ -17,13 +17,13 @@ Example : `act-2020716-000010`
 
 $id = new IdGenerator();
 
-$id->char("act")->date("Ymd")->number(10,6)->get()
+$id->chars("act")->date("Ymd")->number(10,6)->get()
 
 ```
 
 ```php
 
-(new IdGenerator())->char("act")->date("Ymd")->number(10,6)->get()
+(new IdGenerator())->chars("act")->date("Ymd")->number(10,6)->get()
 ```
 
 ## Dates - IdGenerator
