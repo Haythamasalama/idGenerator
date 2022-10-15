@@ -1,4 +1,4 @@
-# id generator
+# Id Generator
 php class used for create custom ids for database or you business logic for example gerate ids  like this :
 
 ```
