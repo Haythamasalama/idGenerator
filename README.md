@@ -126,3 +126,10 @@ the diffault divider is `-`
 ```php
 (new IdGenerator())->chars("act")->number("10")->chars("T1")->divider("_")->get()
 ```
+
+
+### ❤  Sponsor me if you find the work valuable
+
+<a href="https://www.buymeacoffee.com/haythamasalama" target="_blank">
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+</a>
